@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="3" total="20" passed="16">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="123" started-at="2020-06-24T21:10:21Z" finished-at="2020-06-24T21:10:22Z">
+    <groups>
+      <group name="smoke">
+        <method signature="Day5.webLoginHomeLoan()[pri:0, instance:com.qa.testcases1.Day5@d2cc05a]" name="webLoginHomeLoan" class="com.qa.testcases1.Day5"/>
+        <method signature="Day4.loginApiHomeLoan()[pri:0, instance:com.qa.testcases1.Day4@ae45eb6]" name="loginApiHomeLoan" class="com.qa.testcases1.Day4"/>
+        <method signature="Day6.mobileLoginHL()[pri:0, instance:com.qa.testcases1.Day6@3bfdc050]" name="mobileLoginHL" class="com.qa.testcases1.Day6"/>
+        <method signature="Day6.testParamterized(java.lang.String)[pri:0, instance:com.qa.testcases1.Day6@3bfdc050]" name="testParamterized" class="com.qa.testcases1.Day6"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test name="Car Loan" duration-ms="93" started-at="2020-06-24T21:10:21Z" finished-at="2020-06-24T21:10:22Z">
+      <class name="com.qa.testcases1.Day4">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.qa.testcases1.Day4@ae45eb6]" name="beforeClass" is-config="true" duration-ms="0" started-at="2020-06-24T21:10:22Z" finished-at="2020-06-24T21:10:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.testcases1.Day4@ae45eb6]" name="setUp" is-config="true" duration-ms="1" started-at="2020-06-24T21:10:22Z" finished-at="2020-06-24T21:10:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="loginApiHomeLoan()[pri:0, instance:com.qa.testcases1.Day4@ae45eb6]" name="loginApiHomeLoan" duration-ms="3" started-at="2020-06-24T21:10:22Z" finished-at="2020-06-24T21:10:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginApiHomeLoan -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.testcases1.Day4@ae45eb6]" name="tearDown" is-config="true" duration-ms="0" started-at="2020-06-24T21:10:22Z" finished-at="2020-06-24T21:10:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.testcases1.Day4@ae45eb6]" name="setUp" is-config="true" duration-ms="1" started-at="2020-06-24T21:10:22Z" finished-at="2020-06-24T21:10:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testParameterization(java.lang.String)[pri:0, instance:com.qa.testcases1.Day4@ae45eb6]" name="testParameterization" duration-ms="1" started-at="2020-06-24T21:10:22Z" finished-at="2020-06-24T21:10:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CarLoan-testlevelPara.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testParameterization -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.testcases1.Day4@ae45eb6]" name="tearDown" is-config="true" duration-ms="1" started-at="2020-06-24T21:10:22Z" finished-at="2020-06-24T21:10:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.qa.testcases1.Day4@ae45eb6]" name="afterClass" is-config="true" duration-ms="1" started-at="2020-06-24T21:10:22Z" finished-at="2020-06-24T21:10:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.qa.testcases1.Day4 -->
+      <class name="com.qa.testcases1.Day3">
+        <test-method status="PASS" signature="loginApiCarLoan()[pri:0, instance:com.qa.testcases1.Day3@68c4039c]" name="loginApiCarLoan" duration-ms="8" started-at="2020-06-24T21:10:21Z" finished-at="2020-06-24T21:10:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginApiCarLoan -->
+        <test-method status="PASS" signature="mobileLogOutCarLoan()[pri:0, instance:com.qa.testcases1.Day3@68c4039c]" name="mobileLogOutCarLoan" duration-ms="5" started-at="2020-06-24T21:10:21Z" finished-at="2020-06-24T21:10:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mobileLogOutCarLoan -->
+        <test-method status="PASS" signature="webLoginCarLoan()[pri:0, instance:com.qa.testcases1.Day3@68c4039c]" name="webLoginCarLoan" duration-ms="4" started-at="2020-06-24T21:10:21Z" finished-at="2020-06-24T21:10:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- webLoginCarLoan -->
+      </class> <!-- com.qa.testcases1.Day3 -->
+    </test> <!-- Car Loan -->
+    <test name="Personal Loan" duration-ms="80" started-at="2020-06-24T21:10:21Z" finished-at="2020-06-24T21:10:22Z">
+      <class name="com.qa.testcases1.Day2">
+        <test-method status="PASS" signature="test1()[pri:0, instance:com.qa.testcases1.Day2@548a9f61]" name="test1" duration-ms="2" started-at="2020-06-24T21:10:21Z" finished-at="2020-06-24T21:10:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+      </class> <!-- com.qa.testcases1.Day2 -->
+      <class name="com.qa.testcases1.Day1">
+        <test-method status="PASS" signature="test1()[pri:0, instance:com.qa.testcases1.Day1@4f933fd1]" name="test1" duration-ms="9" started-at="2020-06-24T21:10:21Z" finished-at="2020-06-24T21:10:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method status="PASS" signature="test2()[pri:0, instance:com.qa.testcases1.Day1@4f933fd1]" name="test2" duration-ms="2" started-at="2020-06-24T21:10:21Z" finished-at="2020-06-24T21:10:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+      </class> <!-- com.qa.testcases1.Day1 -->
+      <class name="com.qa.testcases1.Day5">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.testcases1.Day5@d2cc05a]" name="setUp" is-config="true" duration-ms="0" started-at="2020-06-24T21:10:21Z" finished-at="2020-06-24T21:10:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testParameters(java.lang.String, java.lang.String)[pri:0, instance:com.qa.testcases1.Day5@d2cc05a]" name="testParameters" duration-ms="14" started-at="2020-06-24T21:10:22Z" finished-at="2020-06-24T21:10:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[PersonalLoan-testlevelPara.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1234567890abcdef]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testParameters -->
+        <test-method status="PASS" signature="webLoginHomeLoan()[pri:0, instance:com.qa.testcases1.Day5@d2cc05a]" name="webLoginHomeLoan" duration-ms="2" started-at="2020-06-24T21:10:22Z" finished-at="2020-06-24T21:10:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- webLoginHomeLoan -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.testcases1.Day5@d2cc05a]" name="tearDown" is-config="true" duration-ms="1" started-at="2020-06-24T21:10:22Z" finished-at="2020-06-24T21:10:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.testcases1.Day5 -->
+    </test> <!-- Personal Loan -->
+    <test name="Regression" duration-ms="123" started-at="2020-06-24T21:10:21Z" finished-at="2020-06-24T21:10:22Z">
+      <class name="com.qa.testcases1.Day6">
+        <test-method status="PASS" signature="mobileLoginHL()[pri:0, instance:com.qa.testcases1.Day6@3bfdc050]" name="mobileLoginHL" duration-ms="11" started-at="2020-06-24T21:10:21Z" finished-at="2020-06-24T21:10:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mobileLoginHL -->
+        <test-method status="FAIL" signature="testFailure()[pri:0, instance:com.qa.testcases1.Day6@3bfdc050]" name="testFailure" duration-ms="10" started-at="2020-06-24T21:10:21Z" finished-at="2020-06-24T21:10:21Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertTrue(Assert.java:44)
+at org.testng.Assert.assertTrue(Assert.java:54)
+at com.qa.testcases1.Day6.testFailure(Day6.java:73)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
+at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+at java.lang.Thread.run(Thread.java:745)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFailure -->
+        <test-method status="PASS" signature="testParamterized(java.lang.String)[pri:0, instance:com.qa.testcases1.Day6@3bfdc050]" name="testParamterized" duration-ms="1" started-at="2020-06-24T21:10:22Z" finished-at="2020-06-24T21:10:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[suitelevelPara.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testParamterized -->
+        <test-method status="PASS" signature="testgDataProvider(java.lang.String, java.lang.String)[pri:0, instance:com.qa.testcases1.Day6@3bfdc050]" name="testgDataProvider" duration-ms="17" started-at="2020-06-24T21:10:22Z" data-provider="getData" finished-at="2020-06-24T21:10:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[birender]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1234]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testgDataProvider -->
+        <test-method status="PASS" signature="testgDataProvider(java.lang.String, java.lang.String)[pri:0, instance:com.qa.testcases1.Day6@3bfdc050]" name="testgDataProvider" duration-ms="2" started-at="2020-06-24T21:10:22Z" data-provider="getData" finished-at="2020-06-24T21:10:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[biru]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5678]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testgDataProvider -->
+        <test-method status="PASS" signature="testgDataProvider(java.lang.String, java.lang.String)[pri:0, instance:com.qa.testcases1.Day6@3bfdc050]" name="testgDataProvider" duration-ms="1" started-at="2020-06-24T21:10:22Z" data-provider="getData" finished-at="2020-06-24T21:10:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[thirddata]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[thirdvalue]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testgDataProvider -->
+        <test-method status="PASS" signature="webLoginHomeLoan()[pri:0, instance:com.qa.testcases1.Day6@3bfdc050]" name="webLoginHomeLoan" duration-ms="2" started-at="2020-06-24T21:10:22Z" finished-at="2020-06-24T21:10:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- webLoginHomeLoan -->
+      </class> <!-- com.qa.testcases1.Day6 -->
+      <class name="com.qa.testcases1.Day5">
+        <test-method status="PASS" signature="firstSuite()[pri:0, instance:com.qa.testcases1.Day5@d2cc05a]" name="firstSuite" is-config="true" duration-ms="15" started-at="2020-06-24T21:10:21Z" finished-at="2020-06-24T21:10:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- firstSuite -->
+        <test-method status="PASS" signature="tearfirstSuite()[pri:0, instance:com.qa.testcases1.Day5@d2cc05a]" name="tearfirstSuite" is-config="true" duration-ms="1" started-at="2020-06-24T21:10:22Z" finished-at="2020-06-24T21:10:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearfirstSuite -->
+      </class> <!-- com.qa.testcases1.Day5 -->
+    </test> <!-- Regression -->
+  </suite> <!-- Suite -->
+</testng-results>

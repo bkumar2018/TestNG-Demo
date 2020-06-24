@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="tests">
+  <parameter name="url" value="suitelevelPara.com"/>
+  <listeners>
+    <listener class-name="com.qa.testcases1.Listeners"/>
+  </listeners>
+  <test thread-count="5" name="Regression(failed)" parallel="tests">
+    <classes>
+      <class name="com.qa.testcases1.Day6">
+        <methods>
+          <include name="testFailure"/>
+        </methods>
+      </class> <!-- com.qa.testcases1.Day6 -->
+    </classes>
+  </test> <!-- Regression(failed) -->
+</suite> <!-- Failed suite [Suite] -->

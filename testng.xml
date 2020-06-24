@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="tests" thread-count="5" >
+
+	<listeners>
+		<listener class-name="com.qa.testcases1.Listeners" />
+	</listeners>
+	<parameter name="url" value="suitelevelPara.com" />  <!-- Suite level parameterization accessible to all -->
+
+	<test name="Personal Loan">
+		<parameter name="url" value="PersonalLoan-testlevelPara.com" />   <!-- Test level parameterization accessible to only those classes under this 
+			test -->
+		<parameter name="apiKey" value="1234567890abcdef" />
+		<classes>
+			<class name="com.qa.testcases1.Day1" />
+			<class name="com.qa.testcases1.Day2" />
+			<class name="com.qa.testcases1.Day5" />
+		</classes>
+	</test> <!-- Test -->
+
+
+	<test name="Car Loan">
+		<parameter name="url" value="CarLoan-testlevelPara.com" />  <!-- Test level parameterization accessible to only those classes under this 
+			test -->
+		<classes>
+			<class name="com.qa.testcases1.Day3">  <!-- To exclude few of test method from this class -->
+				<methods>
+					<exclude name="mobileLoginInCarLoan" />
+					<exclude name="mobile*"></exclude>    <!-- All test method start with name 'mobile' will be excluded -->
+				</methods>
+			</class>
+
+			<class name="com.qa.testcases1.Day4">  <!-- To only include one method from this class -->
+				<methods>
+					<include name="loginApiHomeLoan" />
+					<include name="testParameterization" />
+				</methods>
+			</class>
+		</classes>
+
+	</test> <!-- Test -->
+
+
+	<test name="Regression">
+		<classes>
+			<class name="com.qa.testcases1.Day6" />
+
+		</classes>
+
+	</test>
+
+</suite> <!-- Suite -->
+
+
+
+
+<!-- <suite name="Suite" parallel="tests" thread-count="5" >
+parallel="tests" thread-count="5" these attribute can be added to suite to run test parallel mode -->

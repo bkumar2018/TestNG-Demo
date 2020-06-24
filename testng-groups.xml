@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+<parameter name="url" value="http://google.com"/>
+
+	<test name="Regression">
+
+		<groups>
+			<run>
+				<include name="smoke" />   <!-- All those test method which are having attribute groups with vale 'smoke' will execute, famous interview questions -->
+				<!-- If exclude tag is used then all TC's executed, except smoke groups test cases are skipped -->
+			</run>
+		</groups>
+		<classes>
+			<class name="com.qa.testcases1.Day1" />
+			<class name="com.qa.testcases1.Day2" />
+			<class name="com.qa.testcases1.Day3" />
+			<class name="com.qa.testcases1.Day4" />
+			<class name="com.qa.testcases1.Day5" />
+			<class name="com.qa.testcases1.Day6" />
+		</classes>
+	</test> <!-- Test -->
+	
+	
+	
+</suite> <!-- Suite -->
